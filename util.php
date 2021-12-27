@@ -135,7 +135,7 @@ function uploadImage(array $user, array $file, string $type)
     $image_name = $user['id'] . '_' . date('YmdHis') . $image_extension;
 
     // 保存先のディレクトリ
-    $directory = '../Views/css/img/img_uploaded/' . $type . '/';
+    $directory = '../views/css/img/img_uploaded/' . $type . '/';
 
     // 画像のパス
     $image_path = $directory . $image_name;
